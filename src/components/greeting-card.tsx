@@ -105,18 +105,18 @@ export default function GreetingCard() {
   }
 
   return (
-    <div className="flex flex-wrap gap-6">
+    <div className="flex flex-wrap gap-4">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="space-y-6 bg-blue-950/50 p-6 rounded-lg"
+        className="space-y-6 bg-blue-950/50 p-6 rounded-lg w-full"
       >
         <h2 className="text-xl font-semibold text-amber-400 flex items-center gap-2">
           <Moon className="h-5 w-5" /> Customize Your Greeting
         </h2>
 
-        <div className="space-y-4 w-[70vw] sm:w-[80vw]">
+        <div className="space-y-4">
           <motion.div
             className="space-y-2"
             initial={{ opacity: 0 }}
